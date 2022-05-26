@@ -1,0 +1,11 @@
+{
+  "api": {
+    "baseUrl": "https://tuyensinhsdhkma.me/home-app",
+    "timeout": 5000
+  },
+  "settings": {
+    "storeReviewTimeout": 1000,
+    "storeReviewEnable": false,
+    "bottomTabBarTopBorder": false
+  }
+}
