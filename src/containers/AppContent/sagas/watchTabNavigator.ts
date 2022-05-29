@@ -29,12 +29,20 @@ function* handleTabNavigator({ payload: _payload }: ReturnType<typeof getTabNavi
             path: '/',
           },
           {
+            id: 'ourstores',
+            enable: true,
+            iconColor: '#000000',
+            iconName: 'server',
+            label: 'Tuyển sinh',
+            path: '/tuyen-sinh',
+          },
+          {
             id: 'cart',
             enable: true,
             iconColor: '#000000',
-            iconName: 'shopping-bag',
-            label: 'Cart',
-            path: '/cart',
+            iconName: 'grid',
+            label: 'Tài khoản',
+            path: '/category/tin-tuc-va-su-kien/',
           },
           // {
           //   id: 'shop',
@@ -44,14 +52,6 @@ function* handleTabNavigator({ payload: _payload }: ReturnType<typeof getTabNavi
           //   label: 'Tin tức',
           //   path: '/tin-tuc',
           // },
-          {
-            id: 'ourstores',
-            enable: true,
-            iconColor: '#000000',
-            iconName: 'server',
-            label: 'Tuyển sinh',
-            path: '/tuyen-sinh',
-          },
         ],
       }),
     );

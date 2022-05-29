@@ -25,7 +25,7 @@ function* handleHeaderNavigator({ payload: _payload }: ReturnType<typeof getHead
             type: 'icon',
             enable: true,
             iconName: 'search',
-            path: '&s=',
+            path: '?post_type=posts&s=',
           },
         ],
         center: [
